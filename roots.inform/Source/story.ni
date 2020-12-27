@@ -32,7 +32,9 @@ to say trainstation-description:
 		say "[feeling]I felt lost. I felt afraid. I floated in a space of desperate fear.[line break]
 		[regular]Was it vain to hope for a new home?".
 
-Arrival is a Scene. Arrival begins when the player is in the Trainstation for the first turn.
+Arrival is a Scene. 
+Arrival begins when the player is in the Trainstation for the first turn.
+Arrival ends when the player is in the Sprawling Forest.
 
 every turn during the Arrival:
 	if player is in the Open Space in front of Station:
